@@ -12,11 +12,19 @@
 <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white text-black">
  <!-- Header -->
  <header class="bg-teal-700 text-white sticky top-0 z-10">
-    <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+   <div><section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
         <h1 class="text-4xl font-medium text-red-200 font-bold">
             <a href="#hero">🐾PawsAndLove</a>
         </h1>
-        <div>
+
+        <div class="flex">       
+          <!-- Cart icon and counter -->
+    <a href="#" class="hover:text-red-500 relative max-sm:left-4 left-30">
+      <div class="mr-30"><div class="text-3xl">🛒</div>
+      <span class="cart-counter cart-icon absolute bg-red-500 text-white rounded-full px-2 py-1 text-3xs bottom-4 right-9">0</span>
+    </a></div>
+    </div></div> 
+      
 
           
 
@@ -33,13 +41,7 @@
                 <svg class="w-9 h-10 hover:text-red-500 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
               </button>
 
-  <div class="flex">       
-      <!-- Cart icon and counter -->
-<a href="#" class="hover:text-red-500 relative max-sm:left-4 left-30">
-  <div class="mr-30"><div class="text-3xl">🛒</div>
-  <span class="cart-counter cart-icon absolute bg-red-500 text-white rounded-full px-2 py-1 text-3xs bottom-4 right-9">0</span>
-</a></div>
-</div>
+ 
 
               <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
                 <ul class="flex space-x-4 text-white text-2xl font-san-serif">
@@ -102,10 +104,10 @@
   </section>
   <!-- Adoptable Pets Section -->
   <section id="adopt" class="py-12">
-    <div class="container mx-auto">
+    <div class="container mx-auto justify-center">
       <h2 class="text-4xl font-bold mb-20 text-center font-cursive">Adorable Pets For Adoption</h2>
       <ul class="flex flex-wrap justify-center space-y-12 space-x-12 text-center mr-10 ml-10">
-        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130   hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer">
+        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 max-sm:h-120  hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer mx-auto">
           <img src="Images/andrew-pons-oH9AuO20kbk-unsplash (1).jpg" alt="Buddy">
           <h3 class="text-lg font-bold text-gray-900">Buddy</h3>
           <p class="text-gray-600">Age: 2 years</p>
@@ -116,7 +118,7 @@
           </button>
          <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-gray-600 hover:bg-gray-200 rounded-full p-2 cursor-pointer mt-8">Adopt Now</button></a>
         </li>
-        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130   hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer">
+        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130  max-sm:h-120 hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer mx-auto">
           <img src="Images/victor-g-N04FIfHhv_k-unsplash.jpg" alt="Buddy">
           <h3 class="text-lg font-bold text-gray-900">Joy</h3>
           <p class="text-gray-600">Age: 2 years</p>
@@ -127,7 +129,7 @@
           </button>
          <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-gray-600 hover:bg-gray-200 rounded-full p-2 cursor-pointer mt-8">Adopt Now</button></a>
         </li>
-        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130   hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer">
+        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 max-sm:h-120  hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer mx-auto">
           <img src="Images/anoir-chafik-2_3c4dIFYFU-unsplash.jpg" alt="Buddy">
           <h3 class="text-lg font-bold text-gray-900">Max</h3>
           <p class="text-gray-600">Age: 2 years</p>
@@ -138,7 +140,7 @@
           </button>
          <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-gray-600 hover:bg-gray-200 rounded-full p-2 cursor-pointer mt-8">Adopt Now</button></a>
         </li>
-        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130   hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer">
+        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 max-sm:h-120  hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer mx-auto">
           <img src="Images/freestocks-t8SxccV0Agw-unsplash.jpg" alt="Whiskers">
           <h3 class="text-lg font-bold text-gray-900">Whiskers</h3>
           <p class="text-gray-600">Age: 1 year</p>
@@ -149,7 +151,7 @@
           </button>
          <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-gray-600 hover:bg-gray-200 rounded-full p-2 cursor-pointer mt-8">Adopt Now</button></a>
         </li>
-        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130   hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer">
+        <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 max-sm:h-120  hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer mx-auto">
           <img src="Images/jamie-street-uNNCs5kL70Q-unsplash.jpg" alt="Fido">
           <h3 class="text-lg font-bold text-gray-900">Fido</h3>
           <p class="text-gray-600">Age: 3 years</p>
@@ -172,9 +174,9 @@
     <h2 class="text-7xl font-bold text-black text-center mt-10 mb-20">Pet Care Tips</h2>
     <div class="slideshow-container relative">
       <div class="mySlides fade animate-slide-in">
-        <img src="Images/domestic-pet-food-composition.jpg" alt="Nutrition" class="w-full h-screen object-cover rounded-2xl">
+        <img src="Images/domestic-pet-food-composition.jpg" alt="Nutrition" class="w-full h-screen object-cover rounded-2xl md:w-200">
         <div class="cursor-pointer group text-center sm:translate-y-[-300px] max-sm:translate-y-[-200px] md:translate-y-[-300px] lg:translate-y-[-400px] xl:translate-y-[-600px] text-7xl">
-          <h3 class="text-9xl font-bold text-white invisible group-hover:visible">Nutrition</h3>
+          <h3 class="text-9xl font-bold text-white invisible group-hover:visible max-sm:text-4xl">Nutrition</h3>
           <p class="invisible group-hover:visible text-white max-sm:text-3xl">Feed your pet a balanced diet</p>
         </div>
         <button class="absolute top-1/2 -left-6 -translate-y-1/2 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded transition duration-300 ease-in-out" onclick="plusSlides(-1)">
@@ -189,8 +191,8 @@
       <div class="mySlides fade animate-slide-in">
         <img src="Images/person-doing-yoga-accompanied-by-her-pet.jpg" alt="Exercise" class="w-full h-screen object-cover rounded-2xl">
         <div class="cursor-pointer group text-center sm:translate-y-[-300px] max-sm:translate-y-[-200px] md:translate-y-[-300px] lg:translate-y-[-400px] xl:translate-y-[-600px] text-7xl">
-          <h3 class="text-9xl font-bold text-white invisible invisible group-hover:visible">Exercise</h3>
-          <p class="invisible group-hover:visible text-white max-sm:text-3xl">Provide regular exercise for your pet</p>
+          <h3 class="text-9xl font-bold text-white invisible invisible group-hover:visible max-sm:text-4xl">Exercise</h3>
+          <p class="invisible group-hover:visible text-white max-sm:text-2xl">Provide regular exercise for your pet</p>
         </div>
         <button class="absolute top-1/2 -left-6 -translate-y-1/2 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded transition duration-300 ease-in-out" onclick="plusSlides(-1)">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
@@ -203,10 +205,10 @@
         </button>
       </div>
       <div class="mySlides fade animate-slide-in">
-        <img src="Images/medium-shot-veterinarian-checking-dog.jpg" alt="Health" class="w-full h-screen object-cover rounded-2xl">
+        <img src="Images/medium-shot-veterinarian-checking-dog.jpg" alt="Health" class="w-full h-screen object-cover rounded-2xl max-sm:w-200">
         <div class="cursor-pointer group text-center sm:translate-y-[-300px] max-sm:translate-y-[-200px] md:translate-y-[-300px] lg:translate-y-[-400px] xl:translate-y-[-600px] text-7xl">
-          <h3 class="text-9xl font-bold invisible invisible group-hover:visible">Health</h3>
-          <p class="invisible group-hover:visible max-sm:text-3xl">Schedule regular veterinary <span>check-ups</span></p>
+          <h3 class="text-9xl font-bold invisible invisible group-hover:visible max-sm:text-4xl">Health</h3>
+          <p class="invisible group-hover:visible max-sm:text-2xl">Schedule regular veterinary <span>check-ups</span></p>
         </div>
         <button class="absolute top-1/2 -left-4 -translate-y-1/2 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded transition duration-300 ease-in-out" onclick="plusSlides(-1)">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
@@ -225,35 +227,35 @@
 
   <hr class=" mx-auto bg-black dark:bg-white w-1/2 pt-1">
  <!-- Products Section -->
-<section id="products" class="py-12 mb-4 mt-4 text-center">
+<section id="products" class="py-12 mb-4 mt-4 text-center mx-auto">
   <div class="container mx-auto">
     <h2 class="text-6xl font-bold mb-12">Pet Products</h2>
-    <ul class="flex flex-wrap justify-center space-x-7 space-y-7">
-      <li class="bg-white p-4 rounded shadow-lg shadow-teal-900 border-10">
-        <img src="Images/m-burke-l1UsjV2WrNM-unsplash.jpg" alt="Food" class="w-130 h-130 ml-1">
+    <ul class="flex flex-wrap justify-center space-x-7 space-y-7 mx-auto">
+      <li class="bg-white p-2 rounded shadow-lg shadow-teal-900 border-5 mx-auto">
+        <img src="Images/m-burke-l1UsjV2WrNM-unsplash.jpg" alt="Food" class="w-130 h-130 max-md:h-80">
         <h3 class="text-lg font-bold text-gray-900">Food and Treats
         </h3>
         <p class="text-gray-600">Homemade-style biscuits made with natural ingredients and unique flavors.
         </p>
        <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-red-500 hover:bg-red-200 rounded-full p-2 cursor-pointer buy-now">Buy Now</button></a>
       </li>
-      <li class="bg-white p-4 rounded shadow-lg shadow-teal-900 border-10">
-        <img src="Images/close-up-pet-accessories.jpg" alt="Food" class="w-130 h-130 ml-4">
+      <li class="bg-white p-2 rounded shadow-lg shadow-teal-900 border-5 mx-auto">
+        <img src="Images/close-up-pet-accessories.jpg" alt="Food" class="w-130 h-130 max-md:h-80">
         <h3 class="text-lg font-bold text-gray-900">Toys and Chews
         </h3>
         <p class="text-gray-600">Eco-Friendly Rubber Toys: Durable, sustainable toys made from natural rubber.
         </p>
        <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-red-500 hover:bg-red-200 rounded-full p-2 cursor-pointer buy-now">Buy Now</button></a>
       </li>
-      <li class="bg-white p-4 rounded shadow-lg shadow-teal-900 border-10">
-        <img src="Images/pet-accessories-still-life-concept-with-grooming-objects-food.jpg" alt="Food" class="w-130 h-130 ml-9">
+      <li class="bg-white p-2 rounded shadow-lg shadow-teal-900 border-5 mx-auto">
+        <img src="Images/pet-accessories-still-life-concept-with-grooming-objects-food.jpg" alt="Food" class="w-130 h-130 max-md:h-80">
         <h3 class="text-lg font-bold text-gray-900">Grooming and Hygiene</h3>
         <p class="text-gray-600">Dental Chews and Brushes: Oral health products to reduce tartar and freshen breath.
         </p>
        <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-red-500 hover:bg-red-200 rounded-full p-2 cursor-pointer buy-now">Buy Now</button></a>
       </li>
-      <li class="bg-white p-4 rounded shadow-lg shadow-teal-900 border-10">
-        <img src="Images/shallow-focus-vertical-shot-cute-golden-retriever-puppy-sitting-grass-ground.jpg" alt="Food" class="w-130 h-130 ml-7">
+      <li class="bg-white p-2 rounded shadow-lg shadow-teal-900 border-5 mx-auto">
+        <img src="Images/shallow-focus-vertical-shot-cute-golden-retriever-puppy-sitting-grass-ground.jpg" alt="Food" class="w-130 h-130 max-md:h-80">
         <h3 class="text-lg font-bold text-gray-900"> Apparel and Accessories
         </h3>
         <p class="text-gray-600">Stylish Dog Collars: Fashionable, adjustable collars with fun designs and patterns.
@@ -272,7 +274,7 @@
   <div class="container mx-auto">
     <h2 class="text-4xl font-bold mb-20 text-center font-cursive">Dogs for Sale</h2>
     <ul class="flex flex-wrap justify-center space-y-12 space-x-12 text-center mr-10 ml-10">
-      <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer">
+      <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 max-sm:h-120  hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer mx-auto">
         <img src="Images/john-price-wzRQfEw9CMc-unsplash.jpg" alt="Buddy">
         <h3 class="text-lg font-bold text-gray-900">Buddy</h3>
         <p class="text-gray-600">Age: 2 years</p>
@@ -281,8 +283,8 @@
         <button class="bg-red-500 hover:bg-red-200 rounded-full p-2 cursor-pointer add-to-cart">Add to Cart</button>
        <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-gray-600 hover:bg-gray-200 rounded-full p-2 cursor-pointer mt-8">Buy Now</button></a>
       </li>
-      <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer">
-        <img src="Images/cute-little-black-french-bulldog-studio.jpg" alt="Buddy" class=" w-130 h-80">
+      <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 max-sm:h-120  hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer mx-auto">
+        <img src="Images/cute-little-black-french-bulldog-studio.jpg" alt="Buddy" class=" w-130 h-70">
         <h3 class="text-lg font-bold text-gray-900">Roddy</h3>
         <p class="text-gray-600">Age: 1 years</p>
         <p class="text-gray-600">Breed: French Bulldog</p>
@@ -290,8 +292,8 @@
         <button class="bg-red-500 hover:bg-red-200 rounded-full p-2 cursor-pointer add-to-cart">Add to Cart</button>
        <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-gray-600 hover:bg-gray-200 rounded-full p-2 cursor-pointer mt-8">Buy Now</button></a>
       </li>
-      <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer">
-        <img src="Images/closeup-shot-adorable-golden-retriever.jpg" alt="Buddy" class="h-80 w-130">
+      <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 max-sm:h-120  hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer mx-auto">
+        <img src="Images/closeup-shot-adorable-golden-retriever.jpg" alt="Buddy" class="h-70 w-130">
         <h3 class="text-lg font-bold text-gray-900">Shasha</h3>
         <p class="text-gray-600">Age: 2 years</p>
         <p class="text-gray-600">Breed: German Shepherd</p>
@@ -299,7 +301,7 @@
         <button class="bg-red-500 hover:bg-red-200 rounded-full p-2 cursor-pointer add-to-cart">Add to Cart</button>
        <a href="http://wa.me/+2348138422068" target="_blank"><button class="bg-gray-600 hover:bg-gray-200 rounded-full p-2 cursor-pointer mt-8">Buy Now</button></a>
       </li>
-      <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer">
+      <li class="bg-white p-4 rounded-xl shadow-xl shadow-red-200 w-130 h-130 max-sm:h-120  hover:bg-red-200 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out cursor-pointer mx-auto">
         <img src="Images/joe-caione-qO-PIF84Vxg-unsplash.jpg" alt="Buddy">
         <h3 class="text-lg font-bold text-gray-900">Plushy</h3>
         <p class="text-gray-600">Age: 3 months</p>
