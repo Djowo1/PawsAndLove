@@ -147,9 +147,32 @@ if (cartIcon) {
   console.error("Element with class 'relative' not found.");
 }
 
-console.log('Cart icon:', cartIcon);
-console.log('Cart counter:', cartCounter);
-console.log('Cart dropdown:', cartDropdown);
-console.log('Cart items list:', cartItemsList);
-console.log('Total cost:', totalCost);
-console.log('Add to cart buttons:', addToCartButtons);
+// Get all section elements
+const sections = document.querySelectorAll('.animated');
+
+// Create an IntersectionObserver instance
+const observer = new IntersectionObserver((entries) => {
+  // Loop through the observed entries
+  entries.forEach((entry) => {
+    // Check if the section is visible
+    if (entry.isIntersecting) {
+      // Add a class to trigger the animation
+      entry.target.classList.add('opacity-100');
+      entry.target.classList.add('duration-30');
+      entry.target.classList.add('transition-opacity');
+      entry.target.classList.add('ease-in-out');
+      // Stop observing the section
+      observer.unobserve(entry.target);
+    }
+  });
+}, {
+  // Options for the observer
+  threshold: 0.1, // Trigger when 10% of the section is visible
+});
+
+// Observe all sections
+sections.forEach((section) => {
+  observer.observe(section);
+});
+
+
