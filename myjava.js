@@ -176,3 +176,19 @@ sections.forEach((section) => {
 });
 
 
+const hamburgerBtn = document.getElementById("hamburger-btn");
+  const mobileNav = document.getElementById("mobile-nav");
+
+  hamburgerBtn.addEventListener("click", () => {
+    mobileNav.classList.toggle("hidden");
+    mobileNav.classList.toggle("flex");
+    mobileNav.classList.toggle("flex-col");
+    mobileNav.classList.toggle("bg-teal-700");
+    mobileNav.classList.toggle("absolute");
+    mobileNav.classList.toggle("top-20");
+    mobileNav.classList.toggle("right-4");
+    mobileNav.classList.toggle("p-4");
+    mobileNav.classList.toggle("rounded-xl");
+    mobileNav.classList.toggle("space-y-4");
+    mobileNav.classList.toggle("z-50");
+  });
