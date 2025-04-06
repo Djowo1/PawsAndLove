@@ -176,6 +176,7 @@ sections.forEach((section) => {
 });
 
 
+// Hamburger button linked with the nav links.
 const hamburgerBtn = document.getElementById("hamburger-btn");
   const mobileNav = document.getElementById("mobile-nav");
 
